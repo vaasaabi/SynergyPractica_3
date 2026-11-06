@@ -7,3 +7,10 @@ pubspec.lock
 .idea/
 *.iml
 .DS_Store
+android/
+ios/
+linux/
+macos/
+test/
+web/
+windows/
