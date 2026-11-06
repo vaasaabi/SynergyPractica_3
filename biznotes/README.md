@@ -29,6 +29,7 @@ lib/
     notes_list_screen.dart     список заметок, поиск, кнопка «+»
     note_edit_screen.dart      создание/редактирование заметки
     settings_screen.dart       выбор хранилища и синхронизация
+Презентация_BizNotes.pptx      Презентация приложения
 ```
 
 ## Запуск
