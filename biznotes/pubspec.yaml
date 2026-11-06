@@ -1,0 +1,23 @@
+name: biznotes
+description: Мобильное приложение для ведения заметок во время совещаний (кейс-задача №4).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0        # локальная база данных SQLite
+  path: ^1.9.0           # построение путей к БД/файлам
+  path_provider: ^2.1.1  # каталог документов для файлового хранилища
+  shared_preferences: ^2.2.2  # запоминание выбранного режима хранения
+  intl: ^0.19.0          # форматирование даты
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
